@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IWP project</title>
+
+    <style>
+			html {
+			  font-size: 100%;
+			  overflow-y: scroll;
+			  -webkit-tap-highlight-color: rgba(0,0,0,0);
+			  -ms-text-size-adjust: 100%;
+			  -webkit-text-size-adjust: none;
+			}
+			body { margin: 0; font-size: 14px; line-height: 1.61; font-weight: 400; }
+			body, button, input, select, textarea { font-family: 'Open Sans', sans-serif; color: #333; }
+
+			a { color: #12C; }
+			a:visited { color: #61C; }
+			a:focus { outline: thin dotted; }
+			a:hover, a:active { color: #c00; outline: 0; }
+
+			b, strong { font-weight: bold; }
+			pre, code { font-family: monospace, monospace; font-size: 1em; }
+			ul, ol { margin: 1em 0; padding: 0 0 0 20px; }
+			img { border: 0; max-width: 100%; }
+
+			body { background: #fff; }
+			header, footer, .container { max-width: 45em; margin: 0 auto; }
+
+			header { padding: 0 0.5em; color: #C90B0B; }
+			header img { border-radius: 40px; float: left; }
+			header p { font-size:1.5em; font-weight: bold; padding-left: 4em;}
+			header p span { font-size: 0.8em; font-weight: normal;}
+
+			.hero { padding: 2em; background-color: #f8f8f8; font-size:1.2em;
+			  border-bottom: 1px solid #ccc;
+			  border-top: 1px solid #ccc;
+			}
+
+			.content { padding: 1em 1em; }
+			.content li { list-style-type: none; font-size: 1.1em;}
+			li img { float:left; padding-right: 1em; }
+			li p { font-size: 0.9em; font-style: italic; }
+
+			footer {
+			  padding: 0 0.5em;
+			  border-top: 1px solid #ccc;
+			}
+			footer span { float: right; font-style: italic; }
+
+			@media only screen and (max-width: 480px) {
+			  body { font-size: 12px;}
+			  header p { padding-left: 4.5em;}
+			}
+    </style>
+
+    <link href="public/css/print.css" rel="stylesheet" media="print">
+
+    <script src="public/js/index.js" async></script>
+    <script src="http://www.google-analytics.com/analytics.js" async></script>
+
+  </head>
+
+  <body>
+    <header>
+      <a href="/"><img src="public/img/profilepic.jpg"></a>
+      <p>Harsh Parwal<br><span>Student</span></p>
+    </header>
+
+    <div class="container">
+      <div class="hero">
+        <strong>I love web development!</strong> We will be designing a webpage that will be optimized not only for desktop but for other screen types also. The webpage will take less load time and a good response time. The website will  retains users’ attention and present it to all internet users in the most convenient way possible.
+      </div>
+
+      <div class="content">
+        <ul>
+          <li>
+            <img src="public/img/project-01.jpg">
+            <a href="project.html">Interactive website based on high res</a>
+            <p>Modified bootstrap script for high resolution.</p>
+          </li>
+          <li>
+            <img src="public/img/project-04.jpg">
+            <a href="views/pizza.html">VIT's Pizzeria</a>
+            <p>Who wants a performant pizza?</p>
+          </li>
+        </ul>
+    </div>
+    <footer>
+      <p>&copy; Developed by Harsh Parwal <span id="crp-stats"></span></p>
+    </footer>
+  </body>
+</html>
